@@ -1,0 +1,38 @@
+body {
+  background: url("../img/music-bg.jpeg");
+  font-family: "Arimo", sans-serif; }
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center; }
+
+.key {
+  width: 80px;
+  height: 80px;
+  background: #56E094;
+  margin: 20px;
+  text-align: center;
+  line-height: 80px;
+  transition: 0.2s; }
+
+kbd {
+  background: none;
+  font-family: "Arimo", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin: auto;
+  display: block; }
+
+.playing {
+  width: 85px;
+  height: 85px;
+  line-height: 85px;
+  transform: scale(1);
+  box-shadow: 5px 5px 5px rgba(250, 250, 250, 0.5); }
+  .playing kbd {
+    font-size: 46px; }
+
+/*# sourceMappingURL=main.css.map */
